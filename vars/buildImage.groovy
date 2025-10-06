@@ -8,6 +8,9 @@ def call(String imageName) {
     docker.dockerPush(imageName)
 }
 
+
+// ...option from twn-bootcamp...
+
 // def call(String imageName) {
 //     return new Docker(this).with {
 //         dockerLogin()
